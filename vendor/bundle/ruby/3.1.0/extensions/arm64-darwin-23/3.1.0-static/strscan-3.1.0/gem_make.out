@@ -1,0 +1,17 @@
+current directory: /Users/gdunaway/hyde-2.1.0/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+/Users/gdunaway/.rubies/ruby-3.1.3/bin/ruby -I /Users/gdunaway/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... no
+creating Makefile
+
+current directory: /Users/gdunaway/hyde-2.1.0/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240525-67924-g58ejz sitelibdir\=./.gem.20240525-67924-g58ejz clean
+
+current directory: /Users/gdunaway/hyde-2.1.0/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240525-67924-g58ejz sitelibdir\=./.gem.20240525-67924-g58ejz
+compiling strscan.c
+linking shared-object strscan.bundle
+
+current directory: /Users/gdunaway/hyde-2.1.0/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240525-67924-g58ejz sitelibdir\=./.gem.20240525-67924-g58ejz install
+/usr/bin/install -c -m 0755 strscan.bundle ./.gem.20240525-67924-g58ejz

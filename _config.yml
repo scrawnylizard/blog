@@ -14,9 +14,9 @@ highlighter:      rouge
 # permalink:        pretty
 
 # Setup
-title:            "Itsablog"
+title:            "GD's Blog"
 tagline:          ''
-description:      ''
+description:      'a GD Blog'
 url:              https://www.gregorymdunaway.com
 baseurl:          ''
 
@@ -27,15 +27,16 @@ paginate:         10
 paginate_path:    "/blog/page:num/"
 
 # Custom vars
-# version:          2.1.0
+version:          0.1
 
 github:
   repo:           https://github.com/scrawnylizard/blog
 
-plugins: 
+plugins:
   - jekyll-paginate
   - jekyll-archives
   - jekyll-commonmark-ghpages
+  - jekyll-gist
 
 disqus:
   shortname: scrawnylizard

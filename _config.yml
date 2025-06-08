@@ -37,6 +37,9 @@ plugins:
   - jekyll-archives
   - jekyll-commonmark-ghpages
   - jekyll-gist
+  - jekyll-remote-theme
+
+remote_theme: vfvong/jekyll-theme-quartz
 
 disqus:
   shortname: scrawnylizard
